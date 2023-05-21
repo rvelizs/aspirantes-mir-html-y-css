@@ -1,0 +1,79 @@
+body
+{
+    font-family: Arial;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+}
+
+form
+{
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #fd1616, #e7d31b);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+form h1, label
+{
+    color: white;
+}
+
+form h1
+{
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+form input[type="text"], input[type="password"], select
+{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form .terminos
+{
+    display: flex;
+    align-items: center;
+}
+
+form .terminos label
+{
+    padding-left: 10px;
+}
+
+form .ingresar
+{
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+form input[type="submit"]
+{
+    padding: 5px 15px;
+}
+
+form div
+{
+    margin-bottom: 12px;
+}
+
+@media (max-width: 500px)
+{
+    form
+    {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container
+    {
+        width: 100%;
+    }
+}
